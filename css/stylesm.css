@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
     background-image: url('../img/7.jpg');
     background-size: cover;
     background-attachment: fixed;
-    padding: 10% 20px;
+    padding: 30% 20px;
     text-align: center;
 }
 
