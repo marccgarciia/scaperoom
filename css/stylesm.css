@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rock Salt', cursive;
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@ body {
     background-image: url('../img/7.jpg');
     background-size: cover;
     background-attachment: fixed;
-    padding: 30% 20px;
+    height: 100vh;
     text-align: center;
 }
 
@@ -20,4 +20,17 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+.header h1 {
+    padding: 30px;
+    text-align: left;
+    color: rgba(230, 59, 59, 0.568);
+}
+
+.pregunta1 {
+    color: white;
+    font-size: 40px;
+    color: white;
+    text-shadow: black 0.10em 0.1em 0.5em;
 }
