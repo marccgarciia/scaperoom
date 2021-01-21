@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
