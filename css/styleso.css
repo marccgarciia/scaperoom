@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*Barra de navegación*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 100px;
+}
+
+
+/*clases de columnas*/
+
+.one-column {
+    width: 100%;
+    padding: 10%;
+}
+
+.one-column h1 {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.two-column {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.two-column h1 {
+    font-size: 5vw;
+}
+
+.two-column p {
+    font-size: 3vw;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 2%;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+.four-column p {
+    text-align: center;
+}
+
+
+/*IDs*/
+
+#section2 {
+    background-color: #28ECA5;
+}
+
+#section5 {
+    background-color: #46a6fc;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer p {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/*Clases auxiliares*/
+
+.padding-0 {
+    padding: 0px;
+}
+
+.padding-30 {
+    padding-top: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .two-column {
+        width: 100%;
+    }
+    .two-column h1 {
+        font-size: 8vw;
+    }
+    .two-column p {
+        font-size: 4.2vw;
+    }
+    .four-column {
+        width: 50%;
+    }
+    .header h1 {
+        font-size: 300%;
+    }
+}
