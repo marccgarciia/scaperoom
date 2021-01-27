@@ -10,24 +10,29 @@
     <title>Scape Room HP</title>
 </head>
 
-
-
 <body>
     <div class="header" id="header">
         <h1>Bienvenido al ScapeRoom</h1>
         <h1>de Harry Potter.</h1>
+        <p>(escribir todas las respuestas en mínuscula)</p>
+        <br>
+        <br>
 
     </div>
-    <ul id="nav">
-        <li>
-            <a class="active" href="#seccion-1">
-                <h1>Clica para empezar</h1>
-                <img src="img/flecha-abajo.gif">
-            </a>
-        </li>
-    </ul>
+
+    <div class="header-bottom">
+        <div class="bottom-center">
+            <a href="#seccion-1"><img class="img-flecha" src="./img/SVG_FLECHA.svg"></a>
+        </div>
+    </div>
     <div class="one-column" id="seccion-1">
-        <h1>hola</h1>
+        <h1>Quien causo la cicatriz de Harry Potter? (Nombre entero)</h1>
+        <input type="text" name="val-1" id="val-1" placeholder="Introduce tu respuesta">
+        <h1>Cuales son los familiares con los que convive Harry Potter?</h1>
+        <input type="text" name="val-2" id="val-2" placeholder="Introduce tu respuesta">
+        <br>
+        <br>
+        <a href="view/2.html" onclick="return val_1()">Enviar Respuesta</a>
     </div>
 </body>
 
