@@ -1,10 +1,12 @@
-function val_1() {
-    var a = document.getElementById('val-1').value
-    var b = document.getElementById('val-2').value
-    if (a == 'A' && b == 'pikachu') {
+function pantalla7() {
+    /*alert('hola')*/
+    var a = document.getElementById('p13').value
+    var b = document.getElementById('p14').value
+
+    if (a == 'mandragoras' && b == 'branquialgas') {
         return true
     } else {
-        alert('¡Inténtalo de nuevo Crack!')
+        alert('¡Inténtalo de nuevo Muggle!')
         return false
     }
 }

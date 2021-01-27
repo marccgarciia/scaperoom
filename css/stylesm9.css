@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Rock Salt', cursive;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url(../img/9.1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header h1 {
+    padding: 30px;
+    text-align: left;
+    color: yellow;
+}
+
+.header img {
+    width: 100%;
+    padding: 65vh 80% 0 10%;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #FF5D5D;
+}
