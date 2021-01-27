@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'harry_pregular';
+    src: url('../font/harryp__-webfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: harry_pregular;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-image: url('../img/8.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header h1 {
+    padding: 30px;
+    text-align: left;
+    color: yellow;
+}
+
+.pregunta15 {
+    color: white;
+    font-size: 60px;
+    color: white;
+    text-shadow: black 0.10em 0.1em 0.5em;
+    padding: 10px;
+}
+
+.pregunta16 {
+    color: white;
+    font-size: 60px;
+    color: white;
+    text-shadow: black 0.10em 0.1em 0.5em;
+    padding: 10px;
+}
+
+.p {
+    backdrop-filter: blur(1px);
+}
+
+.reto {
+    padding: 100px 0 0 0;
+    color: white;
+    backdrop-filter: blur(1px);
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #FF5D5D;
+}
+
+#p15 {
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#p16 {
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+}
