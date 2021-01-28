@@ -79,3 +79,26 @@ a:active {
     height: 50px;
     font-size: 25px;
 }
+
+@media screen and (max-width: 700px) {
+    * {
+        box-sizing: border-box;
+        font-family: harry_pregular;
+        overflow: visible;
+    }
+    .header {
+        width: 100%;
+        padding: 10px;
+        background-image: url('../img/8.1.jpg');
+    }
+    #p15 {
+        width: 50%;
+    }
+    #p16 {
+        width: 50%;
+    }
+    #p0 {
+        font-size: 50px;
+        padding: 0 0 50px 0;
+    }
+}
