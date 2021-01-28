@@ -10,7 +10,12 @@
     /* font family */
     /*  font-family: 'Rock Salt', cursive;*/
     font-family: harry_pregular;
+    overflow-x: hidden;
     scrollbar-color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {

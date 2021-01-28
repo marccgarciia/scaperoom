@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .header {
     background-image: url(../img/9.1.png);
     background-size: cover;

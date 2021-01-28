@@ -11,6 +11,10 @@
     overflow: hidden;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     margin: 0;
 }
