@@ -200,6 +200,11 @@ li a {
     padding: 20px 0%;
 }
 
+#seccion-1 a {
+    font-size: 3vw;
+    padding: 20px 0%;
+}
+
 #seccion-2 {
     background-image: url(../img/2.jpg);
     background-size: cover;
@@ -211,6 +216,16 @@ li a {
 
 #seccion-2 h1 {
     font-size: 5vw;
+    padding: 20px 0%;
+}
+
+#seccion-2 a {
+    font-size: 3vw;
+    padding: 20px 0%;
+}
+
+#seccion-3 a {
+    font-size: 3vw;
     padding: 20px 0%;
 }
 
