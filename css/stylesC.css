@@ -14,41 +14,77 @@ body {
     margin: 0;
 }
 
-.header {
-    background-image: url('../img/4.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 10% 20px;
+.one-column {
+    width: 100%;
+    padding: 10%;
     text-align: center;
+}
+
+.pantalla h2 {
+    padding: 30px;
+    text-align: left;
     color: white;
 }
 
-.header h1 {
-    font-size: 100px;
-    backdrop-filter: blur(5px);
-    padding: 30px 0px;
-}
-
-#quest4_1 {
-    font-size: 20px;
-    text-align: center;
-}
-
-#val-1 {
+#p4_1 {
     width: 500px;
     height: 50px;
     font-size: 25px;
-}
-
-#quest4_2 {
-    font-size: 20px;
+    text-shadow: black 0.10em 0.1em 0.5em;
     text-align: center;
 }
 
-#val-2 {
+#p4_2 {
     width: 500px;
     height: 50px;
     font-size: 25px;
+    text-shadow: black 0.10em 0.1em 0.5em;
+    text-align: center;
+}
+
+.one-column h1 {
+    font-size: 5vw;
+    text-align: center;
+    backdrop-filter: contrast(80%);
+}
+
+.two-column {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.two-column h1 {
+    font-size: 5vw;
+}
+
+.two-column p {
+    font-size: 3vw;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 2%;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+.four-column p {
+    text-align: center;
+}
+
+#seccion-4 {
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
 }
 
 .row:after {
