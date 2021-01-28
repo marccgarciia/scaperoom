@@ -68,6 +68,8 @@ a:visited,
 a:active {
     text-decoration: none;
     color: #FF5D5D;
+    font-size: 30px;
+    -webkit-text-stroke: 0, 50px black;
 }
 
 #p13 {
