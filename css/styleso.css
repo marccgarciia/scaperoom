@@ -33,7 +33,7 @@ html {
     background-image: url(../img/1.jpg);
     background-size: cover;
     background-attachment: fixed;
-    padding: 5% 20px 5%;
+    padding: 5% 20px 12%;
     text-align: center;
     color: white;
 }
@@ -227,6 +227,48 @@ li a {
     padding: 20px 0%;
 }
 
+#seccion-1 input {
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#seccion-1 a {
+    a: link;
+    a: visited;
+    a: active;
+    text-decoration: none;
+    color: #FF5D5D;
+}
+
+#seccion-2 input {
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#seccion-2 a {
+    a: link;
+    a: visited;
+    a: active;
+    text-decoration: none;
+    color: #FF5D5D;
+}
+
+#seccion-3 input {
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#seccion-3 a {
+    a: link;
+    a: visited;
+    a: active;
+    text-decoration: none;
+    color: #FF5D5D;
+}
+
 
 /*Clases auxiliares*/
 
@@ -253,6 +295,13 @@ a img {
 }
 
 @media screen and (max-width:600px) {
+    .header {
+        background-image: url(../img/1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        color: white;
+    }
     .two-column {
         width: 100%;
     }
@@ -267,5 +316,63 @@ a img {
     }
     .header h1 {
         font-size: 300%;
+    }
+    /*id*/
+    #seccion-1 {
+        background-image: url(../img/1-2_movil.jpg);
+    }
+    #seccion-2 {
+        background-image: url(../img/2_movil.jpg);
+    }
+    #seccion-1 h1 {
+        font-size: 12vw;
+        padding: 20px 0%;
+    }
+    #seccion-2 h1 {
+        font-size: 5vw;
+        padding: 20px 0%;
+    }
+    #seccion-3 h1 {
+        font-size: 5vw;
+        padding: 20px 0%;
+    }
+    #seccion-1 input {
+        width: 250px;
+        height: 35px;
+        font-size: 25px;
+    }
+    #seccion-1 a {
+        a: link;
+        a: visited;
+        a: active;
+        text-decoration: none;
+        color: #FF5D5D;
+        font-size: 25px;
+    }
+    #seccion-2 input {
+        width: 250px;
+        height: 35px;
+        font-size: 25px;
+    }
+    #seccion-2 a {
+        a: link;
+        a: visited;
+        a: active;
+        text-decoration: none;
+        color: #FF5D5D;
+        font-size: 25px;
+    }
+    #seccion-3 input {
+        width: 250px;
+        height: 35px;
+        font-size: 25px;
+    }
+    #seccion-3 a {
+        a: link;
+        a: visited;
+        a: active;
+        text-decoration: none;
+        color: #FF5D5D;
+        font-size: 25px;
     }
 }
