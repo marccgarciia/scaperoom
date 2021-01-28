@@ -4,7 +4,7 @@ function val_1() {
     if (a == '9 3/4' && b == 'sombrero seleccionador') {
         return true
     } else {
-        alert('¡Has fallado!')
+        alert('¡Inténtalo de nuevo Muggle!')
         return false
     }
 }

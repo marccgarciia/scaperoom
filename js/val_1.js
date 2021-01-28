@@ -4,7 +4,7 @@ function val_1() {
     if (a == 'lord voldemort' && b == 'tios') {
         return true
     } else {
-        alert('¡Has fallado!')
+        alert('¡Inténtalo de nuevo Muggle!')
         return false
     }
 }
