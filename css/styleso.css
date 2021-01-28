@@ -259,6 +259,7 @@ li a {
     a: visited;
     a: active;
     text-decoration: none;
+    -webkit-text-stroke: 1.2px black;
     color: #FF5D5D;
 }
 #seccion-2 input {
@@ -271,6 +272,7 @@ li a {
     a: visited;
     a: active;
     text-decoration: none;
+    -webkit-text-stroke: 1.2px black;
     color: #FF5D5D;
 }
 #seccion-3 input {
@@ -283,6 +285,7 @@ li a {
     a: visited;
     a: active;
     text-decoration: none;
+    -webkit-text-stroke: 1.2px black;
     color: #FF5D5D;
 }
 #white {
