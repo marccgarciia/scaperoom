@@ -10,6 +10,8 @@
     /* font family */
     /*  font-family: 'Rock Salt', cursive;*/
     font-family: harry_pregular;
+    overflow: hidden;
+    scrollbar-color: black;
 }
 
 body {
@@ -198,6 +200,8 @@ li a {
 #seccion-1 h1 {
     font-size: 5vw;
     padding: 20px 0%;
+    -webkit-text-stroke: 0.25px black;
+    color: #FFC300;
 }
 
 #seccion-1 a {
@@ -216,19 +220,21 @@ li a {
 
 #seccion-2 h1 {
     font-size: 5vw;
-    padding: 20px 0%;
+    padding: 10px 0%;
+    -webkit-text-stroke: 0.25px black;
+    color: #FFC300;
 }
 
+
+}
 #seccion-2 a {
     font-size: 3vw;
     padding: 20px 0%;
 }
-
 #seccion-3 a {
     font-size: 3vw;
     padding: 20px 0%;
 }
-
 #seccion-3 {
     background-image: url(../img/3.jpg);
     background-size: cover;
@@ -237,18 +243,17 @@ li a {
     text-align: center;
     color: rgb(0, 0, 0);
 }
-
 #seccion-3 h1 {
     font-size: 5vw;
-    padding: 20px 0%;
+    padding: 10px 0%;
+    -webkit-text-stroke: 0.25px black;
+    color: #FFC300;
 }
-
 #seccion-1 input {
     width: 500px;
     height: 50px;
     font-size: 25px;
 }
-
 #seccion-1 a {
     a: link;
     a: visited;
@@ -256,13 +261,11 @@ li a {
     text-decoration: none;
     color: #FF5D5D;
 }
-
 #seccion-2 input {
     width: 500px;
     height: 50px;
     font-size: 25px;
 }
-
 #seccion-2 a {
     a: link;
     a: visited;
@@ -270,13 +273,11 @@ li a {
     text-decoration: none;
     color: #FF5D5D;
 }
-
 #seccion-3 input {
     width: 500px;
     height: 50px;
     font-size: 25px;
 }
-
 #seccion-3 a {
     a: link;
     a: visited;
@@ -284,21 +285,19 @@ li a {
     text-decoration: none;
     color: #FF5D5D;
 }
-
+#white {
+    color: white;
+}
 
 /*Clases auxiliares*/
-
 .padding-0 {
     padding: 0px;
 }
-
 .padding-30 {
     padding-top: 30px;
 }
 
-
 /*scrolldown*/
-
 a img {
     position: absolute;
     bottom: 20px;
@@ -309,7 +308,6 @@ a img {
     transform: translate(0, -50%);
     text-decoration: none;
 }
-
 @media screen and (max-width:600px) {
     .header {
         background-image: url(../img/1_movil.jpg);
@@ -318,48 +316,61 @@ a img {
         text-align: center;
         color: white;
     }
+    
     .two-column {
         width: 100%;
     }
+    
     .two-column h1 {
         font-size: 8vw;
     }
+    
     .two-column p {
         font-size: 4.2vw;
     }
+    
     .four-column {
         width: 50%;
     }
+    
     .header h1 {
         font-size: 300%;
     }
     /*id*/
+    
     #seccion-1 {
         background-image: url(../img/1-2_movil.jpg);
     }
+    
     #seccion-2 {
         background-image: url(../img/2_movil.jpg);
     }
+    
     #seccion-3 {
         background-image: url(../img/3_movil.jpg);
     }
+    
     #seccion-1 h1 {
         font-size: 12vw;
         padding: 20px 0% 5px;
     }
+    
     #seccion-2 h1 {
         font-size: 12vw;
         padding: 20px 0% 5px;
     }
+    
     #seccion-3 h1 {
         font-size: 12vw;
         padding: 20px 0% 5px;
     }
+    
     #seccion-1 input {
         width: 250px;
         height: 35px;
         font-size: 25px;
     }
+    
     #seccion-1 a {
         a: link;
         a: visited;
@@ -368,11 +379,13 @@ a img {
         color: #FF5D5D;
         font-size: 25px;
     }
+    
     #seccion-2 input {
         width: 250px;
         height: 35px;
         font-size: 25px;
     }
+    
     #seccion-2 a {
         a: link;
         a: visited;
@@ -381,11 +394,13 @@ a img {
         color: #FF5D5D;
         font-size: 25px;
     }
+    
     #seccion-3 input {
         width: 250px;
         height: 35px;
         font-size: 25px;
     }
+    
     #seccion-3 a {
         a: link;
         a: visited;
