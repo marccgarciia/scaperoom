@@ -42,11 +42,6 @@ html {
     font-size: 100px;
 }
 
-.header img {
-    width: 34%;
-    padding: 3% 33%;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -90,8 +85,8 @@ li a {
     padding: 10%;
 }
 
-.one-column h1 {
-    font-size: 5vw;
+.one-column a {
+    font-size: 2.5vw;
     text-align: center;
 }
 
@@ -139,6 +134,12 @@ li a {
 
 .img-flecha {
     animation: flecha 2s infinite;
+}
+
+.bottom-center a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @-webkit-keyframes flecha {
@@ -296,7 +297,7 @@ a img {
 
 @media screen and (max-width:600px) {
     .header {
-        background-image: url(../img/1.jpg);
+        background-image: url(../img/1_movil.jpg);
         background-size: cover;
         background-attachment: fixed;
         text-align: center;
@@ -324,17 +325,20 @@ a img {
     #seccion-2 {
         background-image: url(../img/2_movil.jpg);
     }
+    #seccion-3 {
+        background-image: url(../img/3_movil.jpg);
+    }
     #seccion-1 h1 {
         font-size: 12vw;
-        padding: 20px 0%;
+        padding: 20px 0% 5px;
     }
     #seccion-2 h1 {
-        font-size: 5vw;
-        padding: 20px 0%;
+        font-size: 12vw;
+        padding: 20px 0% 5px;
     }
     #seccion-3 h1 {
-        font-size: 5vw;
-        padding: 20px 0%;
+        font-size: 12vw;
+        padding: 20px 0% 5px;
     }
     #seccion-1 input {
         width: 250px;
