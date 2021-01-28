@@ -74,6 +74,12 @@ a:active {
     font-size: 25px;
 }
 
+#p14 {
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+}
+
 @media screen and (max-width: 700px) {
     * {
         box-sizing: border-box;
@@ -90,7 +96,9 @@ a:active {
         background-position: center center;
     }
     #p13 {
-        width: 50%;
+        width: 250px;
+        height: 35px;
+        font-size: 25px;
     }
     #p0 {
         font-size: 50px;

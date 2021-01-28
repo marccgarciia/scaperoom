@@ -1,5 +1,4 @@
 function pantalla7() {
-    /*alert('hola')*/
     var a = document.getElementById('p13').value
     var b = document.getElementById('p14').value
 

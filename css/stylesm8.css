@@ -92,10 +92,14 @@ a:active {
         background-image: url('../img/8.1.jpg');
     }
     #p15 {
-        width: 50%;
+        width: 250px;
+        height: 35px;
+        font-size: 25px;
     }
     #p16 {
-        width: 50%;
+        width: 250px;
+        height: 35px;
+        font-size: 25px;
     }
     #p0 {
         font-size: 50px;
