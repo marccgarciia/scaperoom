@@ -38,7 +38,8 @@ body {
 .pregunta15 {
     color: white;
     font-size: 60px;
-    color: white;
+    -webkit-text-stroke: 0.10px black;
+    color: #FFC300;
     text-shadow: black 0.10em 0.1em 0.5em;
     padding: 10px;
 }
@@ -46,7 +47,8 @@ body {
 .pregunta16 {
     color: white;
     font-size: 60px;
-    color: white;
+    -webkit-text-stroke: 0.10px black;
+    color: #FFC300;
     text-shadow: black 0.10em 0.1em 0.5em;
     padding: 10px;
 }
