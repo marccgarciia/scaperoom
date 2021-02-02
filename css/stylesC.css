@@ -123,7 +123,9 @@ body {
     font-size: 25px;
 }
 
-#seccion-4 a {
+#seccion-4 a,
+#seccion-5 a,
+#seccion-6 a {
     a: link;
     a: visited;
     a: active;
