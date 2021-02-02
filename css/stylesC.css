@@ -8,6 +8,7 @@
 * {
     box-sizing: border-box;
     font-family: harry_pregular;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -19,26 +20,30 @@ body {
 }
 
 .one-column {
-    width: 100%;
-    padding: 10%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
     text-align: center;
 }
 
-.pantalla h2 {
+#pantallaA h2 {
     padding: 30px;
     text-align: left;
-    color: white;
+    color: yellow;
 }
 
-#p4_1 {
-    width: 500px;
-    height: 50px;
-    font-size: 25px;
-    text-shadow: black 0.10em 0.1em 0.5em;
-    text-align: center;
+#pantallaR h2 {
+    padding: 30px;
+    text-align: left;
+    color: rgba(230, 59, 59, 0.568);
 }
 
-#p4_2 {
+#p4_1,
+#p4_2,
+#p4_3,
+#p4_4,
+#p4_5,
+#p4_6 {
     width: 500px;
     height: 50px;
     font-size: 25px;
@@ -87,6 +92,20 @@ body {
 
 #seccion-4 {
     background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+}
+
+#seccion-5 {
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+}
+
+#seccion-6 {
+    background-image: url(../img/6.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: rgb(0, 0, 0);
