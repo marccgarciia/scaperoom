@@ -42,6 +42,7 @@ html {
     padding: 5% 20px 12%;
     text-align: center;
     color: white;
+    height: 100vh;
 }
 
 .header h1 {
@@ -305,7 +306,8 @@ li a {
 }
 
 /*scrolldown*/
-a img {
+
+/* a img {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -315,6 +317,7 @@ a img {
     transform: translate(0, -50%);
     text-decoration: none;
 }
+ */
 @media screen and (max-width:600px) {
     .header {
         background-image: url(../img/1_movil.jpg);
