@@ -12,7 +12,7 @@ function val_1() {
 function val_2() {
     var a = document.getElementById('p4_3').value
     var b = document.getElementById('p4_4').value
-    if (a == 'ron' && b == 'dumbeldore') {
+    if (a == 'ron' && b == 'albus dumbledore') {
         return true
     } else {
         alert('¡Inténtalo de nuevo Muggle!')
