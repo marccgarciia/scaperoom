@@ -8,7 +8,8 @@
 * {
     box-sizing: border-box;
     font-family: harry_pregular;
-    overflow: hidden;
+    overflow-x: hidden;
+    scrollbar-color: black;
 }
 
 ::-webkit-scrollbar {
@@ -140,4 +141,20 @@ body {
     text-align: left;
     color: white;
     font-size: 35px;
+}
+
+@media screen and (max-width:600px) {
+    #seccion-4 input {
+        width: 250px;
+        height: 35px;
+        font-size: 25px;
+    }
+    #seccion-4 h1 {
+        font-size: 12vw;
+        padding: 20px 0% 5px;
+    }
+    .pantalla h2 {
+        font-size: 6vw;
+        padding-bottom: 10px;
+    }
 }
