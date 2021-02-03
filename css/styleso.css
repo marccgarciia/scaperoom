@@ -47,6 +47,8 @@ html {
 
 .header h1 {
     font-size: 100px;
+    -webkit-text-stroke: 0.25px black;
+    color: white;
 }
 
 ul {
@@ -325,6 +327,7 @@ li a {
         background-attachment: fixed;
         text-align: center;
         color: white;
+        padding-top: 50px;
     }
     
     .two-column {
